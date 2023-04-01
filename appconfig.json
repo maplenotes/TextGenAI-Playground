@@ -1,0 +1,4 @@
+{
+  "tokenizer": "rinna/japanese-gpt-1b",
+  "model": "rinna/japanese-gpt-1b"
+}
