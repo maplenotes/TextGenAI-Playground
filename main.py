@@ -17,3 +17,9 @@ logger.info("start server")
 
 app = FastAPI()
 
+@app.get("/")
+def index():
+    html = ""
+    with open("static/index.html") as f:
+        html = f.read()
+    return Response(content=html, media_type="text/html")
