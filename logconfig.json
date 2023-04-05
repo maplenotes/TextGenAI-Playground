@@ -39,6 +39,21 @@
           "level": "INFO",
           "handlers": ["consoleHandler", "fileHandler"],
           "propagate": false
+      },
+      "uvicorn": {
+          "level": "INFO",
+          "handlers": ["consoleHandler", "fileHandler"],
+          "propagate": false
+      },
+      "uvicorn.error": {
+          "level": "INFO",
+          "handlers": ["consoleHandler", "fileHandler"],
+          "propagate": false
+      },
+      "uvicorn.access": {
+          "level": "INFO",  
+          "handlers": ["consoleHandler", "fileHandler"],
+          "propagate": false
       }
   },
 
